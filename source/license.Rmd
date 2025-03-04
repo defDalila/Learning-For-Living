@@ -1,11 +1,7 @@
 ---
 title: "License"
-output:
-  workflowr::wflow_html:
-    toc: false
-editor_options:
-  chunk_output_type: console
 ---
+
 
 What license are you using for your code? See [choosealicense.com][choose] for
 help deciding. It's a convention to save a file `LICENSE` in the root of your

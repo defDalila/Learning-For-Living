@@ -3,9 +3,9 @@ title: "Home"
 site: workflowr::wflow_site
 output:
   workflowr::wflow_html:
-    toc: false
-editor_options:
-  chunk_output_type: console
+    includes:
+      in_header:
+        - ../styles/header.html
+        - ../styles/hero-image.html
 ---
 
-Welcome to my research website.
