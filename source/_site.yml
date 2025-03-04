@@ -1,7 +1,7 @@
-name: "Learning- For Living"
-output_dir: ../pages
+name: Learning- For Living
+output_dir: ../docs
 navbar:
-  title: "Learning For Living"
+  title: Learning For Living
   left:
   - text: Home
     href: index.html
@@ -9,6 +9,10 @@ navbar:
     href: about.html
   - text: License
     href: license.html
+  right:
+  - icon: fab fa-github
+    text: Source code
+    href: https://github.com/defdalila/Learning-For-Living
 output:
   workflowr::wflow_html:
     toc: yes
