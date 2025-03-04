@@ -1,17 +1,23 @@
-name: Learning- For Living
-output_dir: ../docs
+name: "Learning For Living"
+output_dir: ../pages
 navbar:
-  title: Learning For Living
+  title: "Learning For Living"
   left:
-  - text: Home
+  - icon: fa-home
+    text: "Home"
     href: index.html
-  - text: About
+  - icon: fa-book-open
+    text: "About"
     href: about.html
-  - text: License
-    href: license.html
+  - icon: fa-pencil
+    text: "Study Hub"
+    href: study-hub.html
   right:
-  - icon: fab fa-github
-    text: Source code
+  - icon: fa-scale-balanced
+    text: "License"
+    href: license.html
+  - icon: fa-github
+    text: "Source Code"
     href: https://github.com/defdalila/Learning-For-Living
 output:
   workflowr::wflow_html:
@@ -19,3 +25,9 @@ output:
     toc_float: yes
     theme: cosmo
     highlight: pygments
+    css: 
+    - ../styles/style.css
+    - ../styles/style2.css
+    includes:
+    - in_header: ../styles/header.html
+    - before_body: ../styles/logo-option.html

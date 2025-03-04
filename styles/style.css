@@ -1,0 +1,109 @@
+
+/* ------ Importação das Fontes --------------*/
+
+@import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Lobster+Two:ital,wght@0,400;0,700;1,400;1,700&family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap');
+
+
+/* -------------------- Fontes Todo Body --------------*/
+
+body {
+  font-family: 'Nunito';
+  font-size: 15px;
+}
+
+.title {
+  font-family: 'Abril Fatface';
+}
+
+
+/* -------------- Links ------------------- */
+a {
+  color: #53d6f1;
+}
+
+a:hover {
+  color: #50a0dd; /* darker color when hovering */
+}
+
+
+
+/* Adiciona Espaço entre os títulos e o corpo */
+
+.title {
+  margin-top: 2em !important;
+  margin-bottom: 0.7em;
+}
+
+
+/*adding so much padding because theme
+  adds a margin-top: -65px by default */
+
+.section h1,
+.section h2,
+.section h3,
+.section h4,
+.section h5 {
+  padding-top: 2em !important;
+  margin-bottom: 0.7em;
+}
+
+/* Espaço entre a TOC e o Conteúdo
+  do lado direito em telas grandes*/
+
+@media (min-width: 992px) {
+    .col-md-9 {
+      width: 75%;
+      padding-left: 7em !important;
+    }
+}
+
+
+
+/* ----- Logomarca acima do  TOC --------
+
+
+#TOC::before {
+  content: "";
+  display: block;
+  height: 150px;
+  width: 150px;
+  margin: 2em 20px 40px 20px;
+  background-image: url("../images/logo-black.png");
+  background-size: contain;
+  background-position: center center;
+  background-repeat: no-repeat;
+}
+
+*/
+
+
+/* Não vou utilizar por agora
+
+#header.fluid-row::before {
+  content: "";
+  height: 150px;
+  width: 150px;
+  float: right;
+  background-image: url('logo-black.png');
+  background-color: #000000;
+  background-size: contain;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+------------------------------ */
+
+/* ------------------*/
+
+.upper-right-logo {
+  margin-top: 20px;
+  background-image: url('logo-white.png');
+  height: 15px;
+  width: 30px;
+  border-radius: 50%;
+  background-position: right;
+  background-repeat: no-repeat;
+}
+
+
+

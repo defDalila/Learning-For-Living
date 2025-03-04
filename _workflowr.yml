@@ -3,7 +3,12 @@
 
 # The seed to use for random number generation. See ?set.seed for details.
 seed: 20250304
-# The working directory to build the R Markdown files. The path is relative to
-# _workflowr.yml. See ?rmarkdown::render for details.
-knit_root_dir: "source"
+
+
+# The working directory to build the R Markdown files. The path is relative to _workflowr.yml. See ?rmarkdown::render for details.
+knit_root_dir: "source/"
+
+sessioninfo: "sessioninfo::session_info()"
+
+github: "https://github.com/defDalila/Learning-For-Living"
 

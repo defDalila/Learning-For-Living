@@ -1,5 +1,10 @@
+
+
+
 # Learning-For-Living
 
-A [workflowr][] project.
+<!-- badges: start -->
+<!-- badges: end -->
 
-[workflowr]: https://github.com/workflowr/workflowr
+The goal of Learning-For-Living is to ...
+

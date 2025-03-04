@@ -13,5 +13,5 @@ Encoding: UTF-8
 RnwWeave: Sweave
 LaTeX: pdfLaTeX
 
-AutoAppendNewline: Yes
-StripTrailingWhitespace: Yes
+BuildType: Website
+WebsitePath: C:\Users\defda\Documents\ProjetosR\Learning-For-Living\source
